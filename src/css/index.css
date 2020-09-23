@@ -1,0 +1,27 @@
+@import 'Home.css';
+@import 'Library.css';
+@import 'Book.css';
+@import "Search.css";
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body, .root {
+    height: 100%;
+}
+
+button {
+    cursor: pointer;
+}
